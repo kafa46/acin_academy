@@ -15,11 +15,16 @@ ACIN (AI & Computer Information Network, '에이신'으로 읽어주세요^^)
 <hr>
 
 ## ACIN Academy Course List
--
+Course Naming Index
+- ACIN: Index for this course (AI & Computer Information Network Lab)
+- First digit: the level of course
+- Second & third digits: course mapping index
+- (Example) `ACIN-203`: `ACIN` course `03` of level `2`
+
 |Course ID|Course Name|Link|
 |---|---|---|
-|ACIN-101|Deeplearning Mathematics (딥러닝 수학)|[click]()|
-|ACIN-201|Service Deployment (서비스 배포)|[click]()|
+|ACIN-101|Deeplearning Mathematics (딥러닝 수학)|[click](https://github.com/kafa46/deeplearning_math)|
+|ACIN-201|Service Deployment (서비스 배포)|[click](https://github.com/kafa46/acin_academy/tree/master/01_deployment)|
 |ACIN-202|Data Processing (데이터 처리)|[click]()|
 |ACIN-203|Pytorch Baisics (파이토치 기초)|[click]()|
 |ACIN-301|Deeplearning Core Technologies (딥러닝 핵심 기술)|[click]()|
