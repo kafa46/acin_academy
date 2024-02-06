@@ -25,10 +25,10 @@ Course Naming Index
 |---|---|---|
 |ACIN-101|Deeplearning Mathematics (딥러닝 수학)|[click](https://github.com/kafa46/deeplearning_math)|
 |ACIN-201|Service Deployment (서비스 배포)|[click](https://github.com/kafa46/acin_academy/tree/master/01_deployment)|
-|ACIN-202|Data Processing (데이터 처리)|[click]()|
-|ACIN-203|Pytorch Baisics (파이토치 기초)|[click]()|
-|ACIN-301|Deeplearning Core Technologies (딥러닝 핵심 기술)|[click]()|
-|ACIN-302|Implementation Technologies (구현 기술)|[click]()|
-|ACIN-401|Deeplearning Architectures (딥러닝 아키텍처)|[click]()|
-|ACIN-402|Performance Evaluation (성능 평가)|[click]()|
-|ACIN-403|Related Theories (관련 이론)|[click]()|
+|ACIN-202|Data Processing (데이터 처리)|[준비중]()|
+|ACIN-203|Pytorch Baisics (파이토치 기초)|[준비중]()|
+|ACIN-301|Deeplearning Core Technologies (딥러닝 핵심 기술)|[준비중]()|
+|ACIN-302|Implementation Technologies (구현 기술)|[준비중]()|
+|ACIN-401|Deeplearning Architectures (딥러닝 아키텍처)|[준비중]()|
+|ACIN-402|Performance Evaluation (성능 평가)|[준비중]()|
+|ACIN-403|Related Theories (관련 이론)|[준비중]()|
