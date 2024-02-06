@@ -12,3 +12,7 @@ migrations/
 server.db
 
 toy_example/
+
+# PPT files
+*.ppt
+*.pptx
