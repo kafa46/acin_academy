@@ -23,9 +23,9 @@
 |---|---|---|---|---|
 |서버 모니터링|01. 딥러닝 배포 서버 모니터링 필요성, 접근방법, 목표 시스템|[click](https://youtu.be/qP_Vt4tXWX0)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
 |서버 모니터링|02. 의존성 설치, progress-bar 코딩, 프런트 websocket 코딩|[click](https://youtu.be/jDD9191v_GA)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
-|서버 모니터링|03. 백엔드 코딩(run_server.py, run.sh, \__init__.py 수정), 서버 작동 확인|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
-|서버 모니터링|04. Progress-bar 및 결과창 동적 처리|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
-|서버 모니터링|05. 다중 접속/사용자 처리|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
+|서버 모니터링|03. 백엔드 코딩(run_server.py, run.sh, \__init__.py 수정), 서버 작동 확인|[click](https://youtu.be/4FoSOLBUxfk)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
+|서버 모니터링|04. Progress-bar 및 결과창 동적 처리|[click](https://youtu.be/1R5Q8gA2NMg)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
+|서버 모니터링|05. 다중 접속, 다중 사용자 처리|[click](https://youtu.be/qM_pdELVXhA)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
 
 ### Chapter 3. REST API
 - 준비 중 (오픈되면 Update 예정)
