@@ -19,7 +19,9 @@
 |웹|05. 파일처리 부가기능, 비동기 Ajax 통신 구현, 백엔드 파일처리|[click](https://youtu.be/Ly31-ow14rc)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/01_web_server/01_web_server.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/01_web_server)|
 
 ### Chapter 2. 백엔드 처리 상태 모니터링
-- 준비 중 (오픈되면 Update 예정)
+|분야|주제|Youtube|Slides|Codes|
+|---|---|---|---|---|
+|웹|01. 01. 딥러닝 배포 서버 모니터링 필요성, 접근방법, 목표 시스템|[click](https://youtu.be/qP_Vt4tXWX0)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/01_progressbar/01_progressbar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
 
 ### Chapter 3. REST API
 - 준비 중 (오픈되면 Update 예정)
