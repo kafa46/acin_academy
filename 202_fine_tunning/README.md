@@ -3,9 +3,11 @@
 여기는 ACIN Academy에서 제공하는 Open Courses 중에서 `ACIN-202. Fine-tuning using Transfer Learning (전이학습을 이용한 파인 튜닝)` 과정에 대한 내용을 정리한 페이지 입니다.
 
 ## Useful Links
-- ACIN Academy 전체과정 보기: 바로가기 (click me)
-- 꼰대 교수님 유튜브: 바로가기 (click me)
-- 꼰대 교수님 개인 홈페이지: 바로가기 (click me)
+- ACIN Academy 전체과정 보기: 바로가기 ([click me](https://github.com/kafa46/acin_academy/tree/master))
+- 개인 홈페이지: [click me](https://prof.acin.kr)
+- YouTube Channel: [Jump to Youtube](https://www.youtube.com/@kafa46)
+- Email (primary): <a href="mailto:kafa46@cju.ac.kr">kafa46@cju.ac.kr</a>
+- Email (alternative): <a href="mailto:kafa46@gmail.com">kafa46@gmail.com</a>
 
 ## OpenAI Whisper 모델 파인 튜닝
 |분야|주제|Youtube|Slides|Codes|
