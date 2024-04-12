@@ -3,15 +3,19 @@
 여기는 ACIN Academy에서 제공하는 Open Courses 중에서 `ACIN-202. Fine-tuning using Transfer Learning (전이학습을 이용한 파인 튜닝)` 과정에 대한 내용을 정리한 페이지 입니다.
 
 ## Useful Links
-- ACIN Academy 전체과정 보기: 바로가기 ([click me](https://github.com/kafa46/acin_academy/tree/master))
+- ACIN Academy 전체과정 보기: 바로가기 ([click me](https://github.com/kafa46/acin_academy/))
 - 개인 홈페이지: [click me](https://prof.acin.kr)
 - YouTube Channel: [Jump to Youtube](https://www.youtube.com/@kafa46)
 - Email (primary): <a href="mailto:kafa46@cju.ac.kr">kafa46@cju.ac.kr</a>
 - Email (alternative): <a href="mailto:kafa46@gmail.com">kafa46@gmail.com</a>
 
 ## OpenAI Whisper 모델 파인 튜닝
+
+- 참고: 전체 소스코드는 시리즈가 완료되면 추가 예정입니다.
+
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
 |파인튜닝|01. Orientation|[click](https://youtu.be/Q7SqTAH0pHk)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/01_orientation.pdf)|없음|
 |파인튜닝|02. Dataset Acquisition (데이터 확보)|[click](https://youtu.be/tqqJbk_JK8k)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/02_dataset_processing.pdf)|없음|
 |파인튜닝|03. 음성 파일 변환(`.pcm` &rarr; `.wav`)|[click](https://youtu.be/pstczQsOVSU)|없음|없음|
+|파인튜닝|계속 추가 예정 ^^|준비중|준비중|준비중|
