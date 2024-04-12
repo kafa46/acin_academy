@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <p class="text-start my-3">안녕하세요^^, 딥러닝 분석시스템입니다.</p>
+</div>
+
+<!-- 파일 첨부 영역 -->
+<div class="row">
+    <div class="container m-3">
+        <form method="post" enctype="multipart/form-data" id="form">
+            <!-- 나중에 form.csrf_token 추가해야 함 -->
+            {{ form.csrf_token }}
+            <div class="mb-3">
+                <label for="formFile" class="form-label">분석할 파일을 선택해 주세요</label>
+                <input class="form-control" type="file" id="formFile" onchange="add_file(this);" multiple>
+            </div>
+            <div></div>
+            <!-- 첨부된 파일을 화면에 시현 -->
+            <div class="mb-3 mx-1 row">
+                <div class="row" id="attached-file-list" hidden>첨부된 파일 목록</div>
+                <!-- <label class="col-sm-3" style="color: blue;">첨부된 파일 목록</label> -->
+                <div class="col-sm-9">
+                    <!-- 첨부된 파일 이름을 화면에 시현 -->
+                    <div class="file-list"></div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-outline-primary btn-sm" id="submit_files">서버 전송하기</a>
+            <a href="#" class="btn btn-outline-primary btn-sm" id="clear-content-btn">화면 초기화</a>
+        </form>
+    </div>
+</div>
+
+<!-- 서버 처리 결과 시현 영역 -->
+<div class="row">
+    <div class="container m-3">
+        <div>
+            <p>서버 처리 결과입니다.</p>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 300px" readonly></textarea>
+            <label for="floatingTextarea2" id="textarea_label">딥러닝 작업이 끝나면 여기에 결과가 출력됩니다.</label>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+# 가상환경
+venv/
+
+# Pycache
+__pycache__/
+
+node_modules/
+
+# 비밀키 업로드 제외(차단)
+secret.py
+
+# 데이터베이스
+migrations/
+server.db
+
+
+toy_example/
+
+# PPT files
+*.ppt
+*.pptx
+
+# Upload files
+upload/*.mp3
+
+# 강의가 완성되면 올릴 파일들
+201_deployment/03_file_asr_no_socket/
+201_deployment/04_file_asr_with_socket/
+201_deployment/05_realtime_stream/
+201_deployment/06_socket_toy/
+201_deployment/Audio-Stream-flask/
+201_deployment/toy_example/
