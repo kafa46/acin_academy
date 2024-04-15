@@ -18,5 +18,6 @@
 |전처리|01. Orientation|[click](https://youtu.be/Q7SqTAH0pHk)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/01_orientation.pdf)|없음|
 |전처리|02. Dataset Acquisition (데이터 확보)|[click](https://youtu.be/tqqJbk_JK8k)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/02_dataset_processing.pdf)|없음|
 |전처리|03. 음성 파일 변환(`.pcm` &rarr; `.wav`)|[click](https://youtu.be/pstczQsOVSU)|없음|없음|
-|전처리|04.  Argparse를 이용한 audio 처리를 위한 하부 명령어 (sub-command) 등록 및 터미널 arguments 등록|[click](https://youtu.be/reE3YscH34c)|없음|없음|
+|전처리|04. Argparse를 이용한 audio 처리를 위한 하부 명령어 (sub-command) 등록 및 터미널 arguments 등록|[click](https://youtu.be/reE3YscH34c)|없음|없음|
+|전처리|05. 데이터셋 텍스트 파일 인코딩을 utf-8로 통일|[click](https://youtu.be/ruLlrIzZG6Q)|없음|없음|
 |파인튜닝|계속 추가 예정 ^^|준비중|준비중|준비중|
