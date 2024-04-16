@@ -22,5 +22,7 @@
 |전처리|05. 데이터셋 텍스트 파일 인코딩을 utf-8로 통일|[click](https://youtu.be/ruLlrIzZG6Q)|없음|없음|
 |전처리|06. 큰 학습 데이터셋을 작은 그룹으로 나누기|[click](https://youtu.be/uumj5-A5LTI)|없음|없음|
 |전처리|07. 데이터셋을 .csv 또는 pickle 파일로 저장하기|[click](https://youtu.be/8hpeplbENK8)|없음|없음|
-|전처리|08. csv 또는 pickle 저장 기능을 argparse에 등록하기|[click]()|없음|없음|
+|전처리|08. csv 또는 pickle 저장 기능을 argparse에 등록하기|[click](https://youtu.be/oiUKGI8Z28k)|없음|없음|
+|전처리|09. 학습데이터를 Train/Test set으로 분할하는 기능 구현|[click]()|없음|없음|
+|전처리|10. Train/test set 분할 기능을 argparse에 등록하기|[click]()|없음|없음|
 |파인튜닝|계속 추가 예정 ^^|준비중|준비중|준비중|
