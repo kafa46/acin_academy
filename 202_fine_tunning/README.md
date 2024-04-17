@@ -16,14 +16,14 @@
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
 |OT|01. Orientation|[click](https://youtu.be/Q7SqTAH0pHk)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/01_orientation.pdf)|없음|
-|전처리|02. Dataset Acquisition (데이터 확보)|[click](https://youtu.be/tqqJbk_JK8k)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/02_dataset_processing.pdf)|없음|
-|전처리|03. 음성 파일 변환(`.pcm` &rarr; `.wav`)|[click](https://youtu.be/pstczQsOVSU)|없음|없음|
-|전처리|04. Argparse를 이용한 audio 처리를 위한 하부 명령어 (sub-command) 등록 및 터미널 arguments 등록|[click](https://youtu.be/reE3YscH34c)|없음|없음|
-|전처리|05. 데이터셋 텍스트 파일 인코딩을 utf-8로 통일|[click](https://youtu.be/ruLlrIzZG6Q)|없음|없음|
-|전처리|06. 큰 학습 데이터셋을 작은 그룹으로 나누기|[click](https://youtu.be/uumj5-A5LTI)|없음|없음|
-|전처리|07. 데이터셋을 .csv 또는 pickle 파일로 저장하기|[click](https://youtu.be/8hpeplbENK8)|없음|없음|
-|전처리|08. csv 또는 pickle 저장 기능을 argparse에 등록하기|[click](https://youtu.be/oiUKGI8Z28k)|없음|없음|
-|전처리|09. 학습데이터를 Train/Test set으로 분할하는 기능 구현|[click](https://youtu.be/RDdxueGw1rY)|없음|없음|
-|전처리|10. 폴더 내부 모든 특정 파일 삭제 기능 구현, 모든 기능을 argpase에 등록하기|[click](https://youtu.be/1jtU6p4BSnE)|없음|없음|
+|전처리|02. Dataset Acquisition (데이터 확보)|[click](https://youtu.be/tqqJbk_JK8k)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/02_dataset_processing.pdf)|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|03. 음성 파일 변환(`.pcm` &rarr; `.wav`)|[click](https://youtu.be/pstczQsOVSU)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|04. Argparse를 이용한 audio 처리를 위한 하부 명령어 (sub-command) 등록 및 터미널 arguments 등록|[click](https://youtu.be/reE3YscH34c)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|05. 데이터셋 텍스트 파일 인코딩을 utf-8로 통일|[click](https://youtu.be/ruLlrIzZG6Q)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|06. 큰 학습 데이터셋을 작은 그룹으로 나누기|[click](https://youtu.be/uumj5-A5LTI)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|07. 데이터셋을 .csv 또는 pickle 파일로 저장하기|[click](https://youtu.be/8hpeplbENK8)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|08. csv 또는 pickle 저장 기능을 argparse에 등록하기|[click](https://youtu.be/oiUKGI8Z28k)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|09. 학습데이터를 Train/Test set으로 분할하는 기능 구현|[click](https://youtu.be/RDdxueGw1rY)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|전처리|10. 폴더 내부 모든 특정 파일 삭제 기능 구현, 모든 기능을 argpase에 등록하기|[click](https://youtu.be/1jtU6p4BSnE)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
 |Finetune|11. Plan of Attack (구현 전략)|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/11_finetune_strategy_attack_plan.pdf)|없음|
 |Finetune|계속 추가 예정 ^^|준비중|준비중|준비중|
