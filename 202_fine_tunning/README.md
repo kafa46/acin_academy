@@ -25,5 +25,5 @@
 |전처리|08. csv 또는 pickle 저장 기능을 argparse에 등록하기|[click](https://youtu.be/oiUKGI8Z28k)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
 |전처리|09. 학습데이터를 Train/Test set으로 분할하는 기능 구현|[click](https://youtu.be/RDdxueGw1rY)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
 |전처리|10. 폴더 내부 모든 특정 파일 삭제 기능 구현, 모든 기능을 argpase에 등록하기|[click](https://youtu.be/1jtU6p4BSnE)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
-|Finetune|11. Plan of Attack (구현 전략)|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/11_finetune_strategy_attack_plan.pdf)|없음|
+|Finetune|11. (Finetune) Plan of Attack against Whisper fine-tune(모델 파인 튜팅을 위한 공격/구현 계획)|[click](https://youtu.be/_bTNp6PaeXI)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/11_finetune_strategy_attack_plan.pdf)|없음|
 |Finetune|계속 추가 예정 ^^|준비중|준비중|준비중|
