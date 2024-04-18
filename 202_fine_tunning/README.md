@@ -28,4 +28,5 @@
 |Finetune|11. (Finetune) Plan of Attack against Whisper fine-tune(모델 파인 튜팅을 위한 공격/구현 계획)|[click](https://youtu.be/_bTNp6PaeXI)|[link](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper/slides/11_finetune_strategy_attack_plan.pdf)|없음|
 |Finetune|12. (Finetune) 파인튜닝에 필요한 폴더/파일 생성, 필요한 패키지 설치|[click](https://youtu.be/lHActMFrWa4)|없음|없음|
 |Finetune|13. (Finetune) 긴급 수정 ㅠㅠ - ".csv" 데이터 파일 header(제목줄) 추가|[click](https://youtu.be/Gby9Hfjt1DU)|없음|없음|
+|Finetune|14. (Finetune) Trainer 클래스의 load_dataset 메서드 구현 및 argparse 등록|[click](https://youtu.be/P9dw_xLxpZw)|없음|없음|
 |Finetune|계속 추가 예정 ^^|준비중|준비중|준비중|
