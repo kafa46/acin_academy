@@ -188,7 +188,9 @@ class PrepareDataset:
         if file_name.startswith('.'):
             file_name_csv = '.' + file_name_csv
         data_df = pd.DataFrame(data_dic)
-        data_df.to_csv(file_name_csv, index=False, header=False)
+        # Modified by Giseop Noh since Whisper dataset needs header ㅠㅠ
+        #   modified: header=False -> header=True
+        data_df.to_csv(file_name_csv, index=False, header=True)
         print(f'Dataset is saved via csv')
         print(f'Dataset path: {file_name_csv}')        
 
@@ -204,12 +206,15 @@ class PrepareDataset:
         with open(target_file, 'rt') as f:
             data = f.readlines()
             train_num = int(len(data) * train_size)
+            
         # If you set header (header=True) in csv file, you need following codes
-        # header = None
-        # if target_file.endswith('.csv'):
-        #     header = data[0]
-        #     data = data[1:]
-        #     train_num = int(len(data)*train_size)
+        #   - Modified by Giseop Noh since Whisper dataset needs header ㅠㅠ
+        header = None
+        if target_file.endswith('.csv'):
+            header = data[0]
+            data = data[1:]
+            train_num = int(len(data)*train_size)
+        
         shuffle(data)
         data_train = sorted(data[0:train_num])
         data_test = sorted(data[train_num:])
@@ -220,6 +225,8 @@ class PrepareDataset:
         if target_file.startswith('.'):
             train_file = '.' + train_file
         with open(train_file, 'wt', encoding='utf-8') as f:
+            if header:
+                f.write(header)
             for line in data_train:
                 f.write(line)
         print(f'Train_dataset saved -> {train_file} ({train_size*100:.1f}%)')
@@ -230,6 +237,8 @@ class PrepareDataset:
         if target_file.startswith('.'):
             test_file = '.' + test_file
         with open(test_file, 'wt', encoding='utf-8') as f:
+            if header:
+                f.write(header)
             for line in data_test:
                 f.write(line)
         print(f'Test_dataset saved -> {test_file} ({(1.0-train_size)*100:.1f}%)')
