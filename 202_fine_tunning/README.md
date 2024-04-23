@@ -32,5 +32,5 @@
 |Finetune|15. (Finetune) whisper 모델 종류 및 디렉토리 구조를 __init__ 함수에 초기화 해주기|[click](https://youtu.be/iOaU--mAmf0)|없음|없음|
 |Finetune|16. (Finetune) whisper tokenizer, feature extractor, processor 등록(로딩), .cache 폴더 확인 하기|[click](https://youtu.be/0ST_zq5cUWQ)|없음|없음|
 |Finetune|17. (Finetune) 로딩한 whisper tokenizer의 정상 작동 확인|[click](https://youtu.be/Huj_E50U_e8)|없음|없음|
-|Finetune|18. (Finetune) whisper prepare_dataset 및 process_dataset 구현|[준비중]()|없음|없음|
+|Finetune|18. (Finetune) whisper feature_extractor 적용을 위한 prepare_dataset 및 process_dataset 구현|[click](https://youtu.be/SGD066w8PCw)|없음|없음|
 |Finetune|계속 추가 예정 ^^|-|-|-|
