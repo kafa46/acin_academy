@@ -34,4 +34,5 @@
 |Finetune|17. (Finetune) 로딩한 whisper tokenizer의 정상 작동 확인|[click](https://youtu.be/Huj_E50U_e8)|없음|없음|
 |Finetune|18. (Finetune) whisper feature_extractor 적용을 위한 prepare_dataset 및 process_dataset 구현|[click](https://youtu.be/SGD066w8PCw)|없음|없음|
 |Finetune|19. (Finetune) whisper 학습 언어(language) 설정, 평가지표(evaluation metric) 등록, 사전학습 모델 등록|[click](https://youtu.be/oc3ls_bKjqk)|없음|없음|
+|Finetune|20. (Finetune) whisper 학습 argument 설정, trainer 생성, 학습 수행(trainer.run) 구현|[click](https://youtu.be/1CDM-fi4s3A)|없음|없음|
 |Finetune|계속 추가 예정 ^^|-|-|-|
