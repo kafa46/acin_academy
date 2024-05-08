@@ -36,4 +36,5 @@
 |Finetune|19. (Finetune) whisper 학습 언어(language) 설정, 평가지표(evaluation metric) 등록, 사전학습 모델 등록|[click](https://youtu.be/oc3ls_bKjqk)|없음|없음|
 |Finetune|20. (Finetune) whisper 학습 argument 설정, trainer 생성, 학습 수행(trainer.run) 구현|[click](https://youtu.be/1CDM-fi4s3A)|없음|없음|
 |Finetune|21. (Finetune) Whisper 파인튜팅 학습 수행(실제 학습)|[click](https://youtu.be/de49OqoS5yU)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
-|Finetune|계속 추가 예정 ^^|-|-|-|
+|Finetune|22. (Finetune) Whisper Inference (학습 완료 모델을 이용한 추론 테스트) + 인사 말씀|[click](https://youtu.be/ZWkt_Mqbiv0)|없음|[codes](https://github.com/kafa46/acin_academy/blob/master/202_fine_tunning/whisper)|
+|Finetune|Finetune 학습완료 모델 다운로드 링크|해당없음|없음|[click]()|

@@ -160,11 +160,10 @@ class Trainer:
             per_device_eval_batch_size=8,   # if you want, you can modify 8 -> 16 -> 32 if GPU performance available
             predict_with_generate=True,
             generation_max_length=225,
-            # save_steps=1000,
-            # eval_steps=1000,
-            save_steps=200,
-            eval_steps=200,
-            logging_steps=100,              # we will increase 25 -> 100
+            # 개인별 컴퓨팅 환경에 따라 적절하게 숫자 조정 가능
+            save_steps=1000, # modify 1000 -> 2000
+            eval_steps=1000, # modify 1000 -> 2000
+            logging_steps=100, # modify 25 -> 100
             # report_to=["tensorboard"],
             load_best_model_at_end=True,
             metric_for_best_model=config.metric,
