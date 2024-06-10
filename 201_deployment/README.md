@@ -40,7 +40,7 @@
 ### Chapter 3. OpenAI Whisper - Local Live ASR <a id='local_live_asr'></a>
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-|ASR|01. Local Live ASR 구현을 위한 오리엔테이션 (Attack Plan)|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|없음|
+|ASR|01. Local Live ASR 구현을 위한 오리엔테이션 (Attack Plan)|[click](https://youtu.be/M2feOKAoXTc)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/03_whisper_local_live_asr/slides/01_whisper_local_live_asr_attack_plan.pdf)|없음|
 
 
 [맨위로 이동](#top)
