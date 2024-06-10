@@ -24,9 +24,9 @@ toy_example/
 upload/*.mp3
 
 # 강의가 완성되면 올릴 파일들
-201_deployment/03_file_asr_no_socket/
-201_deployment/04_file_asr_with_socket/
-201_deployment/05_realtime_stream/
-201_deployment/06_socket_toy/
+201_deployment/04_file_asr_no_socket/
+201_deployment/05_file_asr_with_socket/
+201_deployment/06_realtime_stream/
+201_deployment/07_socket_toy/
 201_deployment/Audio-Stream-flask/
 201_deployment/toy_example/

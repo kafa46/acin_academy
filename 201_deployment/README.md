@@ -27,5 +27,10 @@
 |서버 모니터링|04. Progress-bar 및 결과창 동적 처리|[click](https://youtu.be/1R5Q8gA2NMg)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
 |서버 모니터링|05. 다중 접속, 다중 사용자 처리|[click](https://youtu.be/qM_pdELVXhA)|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/01_deployment/02_progressbar)|
 
-### Chapter 3. REST API
+### Chapter 3. OpenAI Whisper - Local Live ASR
+|분야|주제|Youtube|Slides|Codes|
+|---|---|---|---|---|
+|ASR|01. Local Live ASR 구현을 위한 오리엔테이션 (Master plan of Attack)|[click]()|[link](https://github.com/kafa46/acin_academy/blob/master/01_deployment/02_progressbar/01_progress_bar.pdf)|없음|
+
+### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정)
