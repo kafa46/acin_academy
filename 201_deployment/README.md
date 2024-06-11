@@ -42,6 +42,10 @@
 |---|---|---|---|---|
 |ASR|01. Local Live ASR 구현을 위한 오리엔테이션 (Attack Plan)|[click](https://youtu.be/M2feOKAoXTc)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/03_whisper_local_live_asr/slides/01_whisper_local_live_asr_attack_plan.pdf)|없음|
 |ASR|02. 프로젝트 폴더구조 생성, finetuned model 복사, audio_io 구현|[click](https://youtu.be/WcDYe3rswI4)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
+|ASR|03. VAD 코드 분석 및 vad.py 작성|[click](https://youtu.be/DQW0cqXYa6Q)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
+|ASR|04. Entry point main.py 코딩 (argparser 포함)|[click](https://youtu.be/4NqRilfuTpA)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
+|ASR|05. 전이학습 모델 로딩을 위한 models/whisper.py 코딩|[click](https://youtu.be/KXcZLEuxMA4)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
+|ASR|06. VAD 및 Whisper 모델 연동, 미니 프로젝트 #2 마무리 인사|[click](https://youtu.be/cWp4vaPGeww)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
 
 
 [맨위로 이동](#top)
