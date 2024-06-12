@@ -11,6 +11,7 @@
 - [Chapter 1. 딥러닝 배포 서버 구축](#server)
 - [Chapter 2. 서버 모니터링(백엔드 처리 상태)](#monitoring)
 - [Chapter 3. OpenAI Whisper - Local Live ASR](#local_live_asr)
+- [Chapter 3. OpenAI Whisper - Client-server-based File ASR Service](#cs-file-asr)
 <hr>
 
 ### Chapter 1. 딥러닝 배포 서버 구축 <a id='server'></a>
@@ -50,6 +51,11 @@
 
 [맨위로 이동](#top)
 <hr>
+
+### Chapter 3. OpenAI Whisper - Client-server-based File ASR Service <a id='cs-file-asr'></a>
+|분야|주제|Youtube|Slides|Codes|
+|---|---|---|---|---|
+|ASR-CS|01. 클라이언트-서버 기반 File ASR 서비스 구현 오리엔테이션 (Attack Plan)|[click](https://youtu.be/0tXTsIUNMOI)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/slides/01_client-server_file_asr_no_socket.pdf)|없음|
 
 ### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정)
