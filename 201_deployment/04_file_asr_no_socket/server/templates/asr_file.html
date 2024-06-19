@@ -4,8 +4,72 @@
 
 <div class="row">
     <p class="text-start my-3">
-        안녕하세요, 딥러닝 분석 시스템 입니다.
+        안녕하세요 ^^, 딥러닝 분석 시스템 입니다.
     </p>
 </div>
+
+<a href="#" class="btn btn-outline-primary btn-sm" id="new-task-btn" hidden>새로운 파일 처리</a>
+
+<!-- 파일 첨부 영역 -->
+<div class="row">
+    <div class="container m-3" id="attach_area">
+        <form method="post" enctype="multipart/form-data" id="form">
+            {{ form.csrf_token }}
+            <div class="mb-3">
+                <label for="formFile" class="form-label">
+                    분석할 파일을 선택해 주세요
+                </label>
+                <input class="form-control" 
+                    type="file" id="formFile"
+                    onchange="add_file(this);"
+                    multiple>
+            </div>
+            <!-- 첨부된 파일을 화면에 시현 -->
+             <div class="mb-3 mx-1 row">
+                <div class="row" id="attached-file-list">
+                    첨부된 파일 목록
+                </div>
+                <div>
+                    <!-- 첨부된 파일 이름들... -->
+                     <div class="file-list"></div>
+                </div>
+             </div>
+             <a href="#" class="btn btn-outline-primary btn-sm" id="submit_files">서버 전송하기</a>
+             <a href="#" class="btn btn-outline-primary btn-sm" id="clear-content-btn">화면 초기화</a>
+        </form>
+    </div>
+</div>
+
+<!-- Progressbar 시현 영역 - upload -->
+<div class="container" id="p_par_area_upload" hidden>
+    <p>파일을 업로드 합니다 ^^. 잠시만 기다려 주세요</p>
+    <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only"></span>
+    </div>
+</div>
+
+<!-- Progressbar 시현 영역 - server prooces -->
+<div class="container" id="p_par_area_process" hidden>
+    <p>업로드 완료!!!</p>
+    <p>서버 처리중입니다. 잠시만 기다려 주세욤...</p>
+    <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only"></span>
+    </div>
+</div>
+
+<!-- 서버 처리 결과 시현 영역 -->
+ <div class="row" id="result_text_area" hidden>
+    <div>
+        <p>서버 처리 결과입니다.</p>
+    </div>
+    <div class="form-floating">
+        <textarea 
+            class="form-control" 
+            placeholder="나중에 필요하면 여기에 기록"
+            style="height: 300px;"
+            id="floatingTextarea2"></textarea>
+        <label for="floatingTextarea2" id="textarea_label">딥러닝 작업이 끝나면 여기에 결과가 출력됩니다.</label>
+    </div>
+ </div>
 
 {% endblock %}

@@ -58,7 +58,8 @@
 |ASR-CS|01. 클라이언트-서버 기반 File ASR 서비스 구현 오리엔테이션 (Attack Plan)|[click](https://youtu.be/0tXTsIUNMOI)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|없음|
 |ASR-CS|02. 프로젝트 구조(폴더) 잡기, 기본 설정파일 코딩|[click](https://youtu.be/mSwujzcZ__A)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|03. 프런트 구현 - base.html 및 main.html 코딩|[click](https://youtu.be/G4SVV7bppyg)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
-|ASR-CS|04. 서버 - 일부 views 구현, 서버 구동, base.html 업데이트|[click](https://youtu.be/wAw7TcEFpGw)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|04. 서버 - 일부 views 구현, 서버 구동, base.html 업데이트|[click](https://youtu.be/wAw7TcEFpGw)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|05. 음성파일 첨부를 위한 프런트엔드(asr_file.html) 구현|[click](https://youtu.be/IM-Ano8Yfdc)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 
 ### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정)
