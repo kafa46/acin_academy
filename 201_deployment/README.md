@@ -55,8 +55,9 @@
 ### Chapter 4. OpenAI Whisper - Client-server-based File ASR Service <a id='cs-file-asr'></a>
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-|ASR-CS|01. 클라이언트-서버 기반 File ASR 서비스 구현 오리엔테이션 (Attack Plan)|[click](https://youtu.be/0tXTsIUNMOI)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/slides/01_client-server_file_asr_no_socket.pdf)|없음|
-|ASR-CS|02. 프로젝트 구조(폴더) 잡기, 기본 설정파일 코딩|[click](https://youtu.be/mSwujzcZ__A)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/slides/01_client-server_file_asr_no_socket.pdf)|준비중|
+|ASR-CS|01. 클라이언트-서버 기반 File ASR 서비스 구현 오리엔테이션 (Attack Plan)|[click](https://youtu.be/0tXTsIUNMOI)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|없음|
+|ASR-CS|02. 프로젝트 구조(폴더) 잡기, 기본 설정파일 코딩|[click](https://youtu.be/mSwujzcZ__A)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|03. 프런트 구현 - base.html 및 main.html 코딩|[click](https://youtu.be/G4SVV7bppyg)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 
 ### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정)
