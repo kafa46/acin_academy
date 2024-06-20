@@ -60,6 +60,7 @@
 |ASR-CS|03. 프런트 구현 - base.html 및 main.html 코딩|[click](https://youtu.be/G4SVV7bppyg)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|04. 서버 - 일부 views 구현, 서버 구동, base.html 업데이트|[click](https://youtu.be/wAw7TcEFpGw)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|05. 음성파일 첨부를 위한 프런트엔드(asr_file.html) 구현|[click](https://youtu.be/IM-Ano8Yfdc)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|06. JavaScript 이용하여 멀티 파일 첨부 구현하고, 업로드 파일 보안 적용하기|[click](https://youtu.be/PgoHzI1TNlA)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 
 ### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정)

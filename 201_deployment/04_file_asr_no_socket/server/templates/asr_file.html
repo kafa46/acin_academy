@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+<script src="/static/js/attach_file_handler_no_socketio.js"></script>
 
 <div class="row">
     <p class="text-start my-3">
@@ -21,12 +22,12 @@
                 </label>
                 <input class="form-control" 
                     type="file" id="formFile"
-                    onchange="add_file(this);"
+                    onchange="addFile(this);"
                     multiple>
             </div>
             <!-- 첨부된 파일을 화면에 시현 -->
              <div class="mb-3 mx-1 row">
-                <div class="row" id="attached-file-list">
+                <div class="row" id="attached-file-list" hidden>
                     첨부된 파일 목록
                 </div>
                 <div>
@@ -34,8 +35,12 @@
                      <div class="file-list"></div>
                 </div>
              </div>
-             <a href="#" class="btn btn-outline-primary btn-sm" id="submit_files">서버 전송하기</a>
-             <a href="#" class="btn btn-outline-primary btn-sm" id="clear-content-btn">화면 초기화</a>
+             <a href="#" 
+                class="btn btn-outline-primary btn-sm" 
+                id="submit_files">서버 전송하기</a>
+             <a href="#" 
+                class="btn btn-outline-primary btn-sm" 
+                id="clear-content-btn">화면 초기화</a>
         </form>
     </div>
 </div>
@@ -68,7 +73,10 @@
             placeholder="나중에 필요하면 여기에 기록"
             style="height: 300px;"
             id="floatingTextarea2"></textarea>
-        <label for="floatingTextarea2" id="textarea_label">딥러닝 작업이 끝나면 여기에 결과가 출력됩니다.</label>
+        <label for="floatingTextarea2" 
+            id="textarea_label">
+            딥러닝 작업이 끝나면 여기에 결과가 출력됩니다.
+        </label>
     </div>
  </div>
 
