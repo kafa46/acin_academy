@@ -9,10 +9,9 @@
 var FILE_NUM = 0; // 첨부된 파일 개수
 var FILE_ARRAY = new Array(); // 첨부 파일 저장용 배열
 
-
 // 파일 추가 함수
 function addFile(obj){
-    let max_file_count = 10; //첨부파일 최대 개수
+    let max_file_count = 1; //첨부파일 최대 개수
     let attach_file_count = $('.filebox').length;
     let remain_file_count  = max_file_count - attach_file_count;
     let current_file_count = obj.files.length; // 현재 첨부된 파일 개수
@@ -54,7 +53,12 @@ function addFile(obj){
 
 // 파일을 form에 저장
 function saveFilesToForm(){
-    
+    let form = $('form');
+    let form_data = new FormData(form[0]);
+    for(let i=0; i<FILE_ARRAY.length; i++){
+        form_data.append('file', FILE_ARRAY[i])
+    }
+    return form_data;
 }
 
 // 첨부 파일 검중
@@ -95,16 +99,60 @@ function deleteFile(num) {
 
 function get_user_id(){
     // 시간 정보 이용
-    return '문자열'
+    const date = new Date();
+    const user_id = 
+        // ex.: '2026-04-16_163559_123'
+        date.getFullYear()
+        + '-' + date.getMonth()
+        + '-' + date.getDate()
+        + '_' + date.getHours()
+        + date.getMinutes()
+        + date.getSeconds()
+        + '_' + date.getMilliseconds()
+    return user_id;
 }
 
 // 서버 전송 코드
 $(function(){
-    // '서버 전송하기' 버튼 클릭되면
-    // user_id = 생성 <- get_user_id()
-    // upload
-    // 만약 업로드 성공하면
-        // ASR 수행 요청 -> process 함수
+    const result_text_area = $('#result_text_area');
+    result_text_area.attr('hidden', true);
+    
+    // "서버 전송하기" 버튼을 클릭한 경우 -> 서버 전송 처리
+    let submit_btn = $('#submit_files');
+    submit_btn.on('click', function(e){
+        // 파일이 첨부되어 있는지 확인
+        if (FILE_NUM===0){
+            alert('첨부파일이 없습니다.\n분석할 파일을 추가해 주세요.')
+            return;
+        }
+        // 파일 첨부 영역 감추기, 업로드 스피너 시작
+        $('#attach_area').attr('hidden', true);
+        $('#p_par_area_upload').attr('hidden', false)
+        
+        // 파일을 서버로 전송하기
+        let form_data = saveFilesToForm();
+        let user_id = get_user_id();
+        $.ajax({
+            method: 'POST',
+            url: `/asr_file/upload/${user_id}`,
+            data: form_data,
+            dataType: false, // 보내는 데이터 형식
+            contentType: 'json', // 받을 데이터 형식
+            processData: false, 
+            cache: false,
+            success: function(result){
+                console.log(result['status']);
+                $('#p_par_area_upload').attr('hidden', true);
+                $('#result_text_area').attr('hidden', false);
+                process(user_id)
+            },
+            error: function(error){
+                alert('에러가 발생했습니다 ㅠㅠ. 관리자에게 문의해 주세요');
+                console.log(error.status, error.statusText);
+                return;
+            }
+        });
+    });
 });
 
 
@@ -113,4 +161,6 @@ function process(user_id){
     // 텍스트 데이터가 도착하면(성공)
     //  -> html (브라우저)에 시현
     // 실패하면 -> 에러 발생... 관리자에게 문의해 주세요..
+    console.log(`user_id: ${user_id}`);
+    alert('야! 서버처리 요청 코드 작성해야지... 일어나!!!');
 }

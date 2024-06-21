@@ -18,7 +18,14 @@ def index():
 @bp.route('/upload/<user_id>', methods=['POST'])
 def upload(user_id):
     # 파일 저장
-    return 'message'
+    print(f'user_id: {user_id}')
+    print('upodad func working')
+    
+    # 서버에 파일을 저장하는 코드를 작성해야 함
+    
+    return {
+        'status': 'upload success',
+    }
 
 @bp.route('/process', methods=['POST'])
 def process():
