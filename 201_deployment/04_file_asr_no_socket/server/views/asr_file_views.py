@@ -15,5 +15,12 @@ def index():
         form=form,
     )
     
-    
-    
+@bp.route('/upload/<user_id>', methods=['POST'])
+def upload(user_id):
+    # 파일 저장
+    return 'message'
+
+@bp.route('/process', methods=['POST'])
+def process():
+    # ASR 인공지능 수행
+    return '결과 텍스트'

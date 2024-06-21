@@ -93,4 +93,24 @@ function deleteFile(num) {
     FILE_NUM--;
 }
 
+function get_user_id(){
+    // 시간 정보 이용
+    return '문자열'
+}
+
 // 서버 전송 코드
+$(function(){
+    // '서버 전송하기' 버튼 클릭되면
+    // user_id = 생성 <- get_user_id()
+    // upload
+    // 만약 업로드 성공하면
+        // ASR 수행 요청 -> process 함수
+});
+
+
+function process(user_id){
+    // 서버로 ASR 수행 요청 보냄
+    // 텍스트 데이터가 도착하면(성공)
+    //  -> html (브라우저)에 시현
+    // 실패하면 -> 에러 발생... 관리자에게 문의해 주세요..
+}
