@@ -56,7 +56,7 @@ function saveFilesToForm(){
     let form = $('form');
     let form_data = new FormData(form[0]);
     for(let i=0; i<FILE_ARRAY.length; i++){
-        form_data.append('file', FILE_ARRAY[i])
+        form_data.append('file', FILE_ARRAY[i]);
     }
     return form_data;
 }
@@ -120,6 +120,7 @@ $(function(){
     // "서버 전송하기" 버튼을 클릭한 경우 -> 서버 전송 처리
     let submit_btn = $('#submit_files');
     submit_btn.on('click', function(e){
+        e.preventDefault();
         // 파일이 첨부되어 있는지 확인
         if (FILE_NUM===0){
             alert('첨부파일이 없습니다.\n분석할 파일을 추가해 주세요.')
@@ -136,8 +137,15 @@ $(function(){
             method: 'POST',
             url: `/asr_file/upload/${user_id}`,
             data: form_data,
-            dataType: false, // 보내는 데이터 형식
-            contentType: 'json', // 받을 데이터 형식
+            
+            // 이전 코드
+            // dataType: false, // 서버로부터 받을 데이터 형식
+            // contentType: 'json', // 받을 데이터 형식
+            
+            // 수정 코드
+            dataType: 'json', // 서버로부터 받을 데이터 형식
+            contentType: false, // 받을 데이터 형식
+            
             processData: false, 
             cache: false,
             success: function(result){

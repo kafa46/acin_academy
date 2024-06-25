@@ -63,6 +63,8 @@
 |ASR-CS|06. JavaScript 이용하여 멀티 파일 첨부 구현하고, 업로드 파일 보안 적용하기|[click](https://youtu.be/PgoHzI1TNlA)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|07. ASR 처리를 위한  클라이언트 - 서버 메시지 교환 로직의 이해|[click](https://youtu.be/6ZMVdTqzSbA)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/07_client-server_work-flow.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|08. 음성 파일을 서버로 전송하기 위한 프런트(JavaScript) 및 서버(upload function) 구현|[click](https://youtu.be/Zz5U4xltx_c)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|09. 클라이언트는 음성 파일을 서버로 전송, 서버는 전송 받은 파일을 저장하는 기능 구현|[click](https://youtu.be/uXG0ht9OdDw)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 
 ### Chapter XX(TBD). REST API
-- 준비 중 (오픈되면 Update 예정)
+- 준비 중 (오픈되면 Update 예정 )
+- 좋은 강의를 위해 어떻게 영상을 만들지 고민중...
