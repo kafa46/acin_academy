@@ -144,13 +144,14 @@ $(function(){
             
             // 수정 코드
             dataType: 'json', // 서버로부터 받을 데이터 형식
-            contentType: false, // 받을 데이터 형식
+            contentType: false, // 보내는 데이터 형식
             
             processData: false, 
             cache: false,
             success: function(result){
                 console.log(result['status']);
                 $('#p_par_area_upload').attr('hidden', true);
+                $('#p_par_area_process').attr('hidden', false);
                 $('#result_text_area').attr('hidden', false);
                 process(user_id)
             },
@@ -161,14 +162,37 @@ $(function(){
             }
         });
     });
+
+    // 화면 초기화 버튼을 클릭했을 경우의 처리
+    $('#clear-content-btn').on('click', function(){
+        location.reload(); // 새로고침
+    });
+
+    // 새로운 파일 처리를 클릭했을 경우의 처리
+    $('#new-task-btn').on('click', function(){
+        location.reload(); // 새로고침
+    });
 });
 
 
 function process(user_id){
-    // 서버로 ASR 수행 요청 보냄
-    // 텍스트 데이터가 도착하면(성공)
-    //  -> html (브라우저)에 시현
-    // 실패하면 -> 에러 발생... 관리자에게 문의해 주세요..
-    console.log(`user_id: ${user_id}`);
-    alert('야! 서버처리 요청 코드 작성해야지... 일어나!!!');
+    $.ajax({
+        method: 'POST',
+        url: '/asr_file/process',
+        data: JSON.stringify({'user_id': user_id}),
+        dataType: 'json', // 서버로부터 받을 데이터 형식
+        contentType: 'application/json', // 보내는 데이터 형식
+        success: function(result){
+            console.log(result);
+            $('#p_par_area_process').attr('hidden', true);
+            $('#textarea_label').remove();
+            $('#floatingTextarea2').val(result['0']);
+            $('#new-task-btn').attr('hidden', false);
+        },
+        error: function(error){
+            alert('에러가 발생했습니다ㅠㅠ\n관리자에게 문의해 주세요.');
+            console.log(error.status, error.statusText);
+            location.href = '/asr_file';
+        }
+    });
 }

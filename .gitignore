@@ -23,6 +23,9 @@ toy_example/
 # Upload files
 upload/*.mp3
 
+# Deeplearning model files
+201_deployment/04_file_asr_no_socket/ai_asr/models/
+
 # 강의가 완성되면 올릴 파일들
 201_deployment/04_file_asr_no_socket_original/
 201_deployment/05_file_asr_with_socket/

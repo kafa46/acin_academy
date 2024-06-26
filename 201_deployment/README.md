@@ -58,12 +58,13 @@
 |ASR-CS|01. 클라이언트-서버 기반 File ASR 서비스 구현 오리엔테이션 (Attack Plan)|[click](https://youtu.be/0tXTsIUNMOI)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|없음|
 |ASR-CS|02. 프로젝트 구조(폴더) 잡기, 기본 설정파일 코딩|[click](https://youtu.be/mSwujzcZ__A)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|03. 프런트 구현 - base.html 및 main.html 코딩|[click](https://youtu.be/G4SVV7bppyg)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/01_client-server_file_asr_no_socket.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
-|ASR-CS|04. 서버 - 일부 views 구현, 서버 구동, base.html 업데이트|[click](https://youtu.be/wAw7TcEFpGw)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
-|ASR-CS|05. 음성파일 첨부를 위한 프런트엔드(asr_file.html) 구현|[click](https://youtu.be/IM-Ano8Yfdc)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
-|ASR-CS|06. JavaScript 이용하여 멀티 파일 첨부 구현하고, 업로드 파일 보안 적용하기|[click](https://youtu.be/PgoHzI1TNlA)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|04. 서버 - 일부 views 구현, 서버 구동, base.html 업데이트|[click](https://youtu.be/wAw7TcEFpGw)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|05. 음성파일 첨부를 위한 프런트엔드(asr_file.html) 구현|[click](https://youtu.be/IM-Ano8Yfdc)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|06. JavaScript 이용하여 멀티 파일 첨부 구현하고, 업로드 파일 보안 적용하기|[click](https://youtu.be/PgoHzI1TNlA)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|07. ASR 처리를 위한  클라이언트 - 서버 메시지 교환 로직의 이해|[click](https://youtu.be/6ZMVdTqzSbA)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/07_client-server_work-flow.pdf)|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
-|ASR-CS|08. 음성 파일을 서버로 전송하기 위한 프런트(JavaScript) 및 서버(upload function) 구현|[click](https://youtu.be/Zz5U4xltx_c)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
-|ASR-CS|09. 클라이언트는 음성 파일을 서버로 전송, 서버는 전송 받은 파일을 저장하는 기능 구현|[click](https://youtu.be/uXG0ht9OdDw)|해당내용<br>없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|08. 음성 파일을 서버로 전송하기 위한 프런트(JavaScript) 및 서버(upload function) 구현|[click](https://youtu.be/Zz5U4xltx_c)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|09. 클라이언트는 음성 파일을 서버로 전송, 서버는 전송 받은 파일을 저장하는 기능 구현|[click](https://youtu.be/uXG0ht9OdDw)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|10. 서버는 음성 파일을 처리하여 클라이언트로 보내고, 클라이언트는 데이터를 받아 페이지를 업데이트 하는 기능 구현|[click](https://youtu.be/VFiIujieAIc)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 
 ### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정 )

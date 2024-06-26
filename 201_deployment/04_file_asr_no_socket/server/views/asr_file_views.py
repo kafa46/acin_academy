@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 from flask import (
     Blueprint,
+    jsonify,
     render_template,
     request,
 )
@@ -47,5 +48,32 @@ def upload(user_id):
 
 @bp.route('/process', methods=['POST'])
 def process():
+    # user_id 추출
+    user_id = request.json['user_id']
+    print(f'user_id in process: {user_id}')
+    if not user_id:
+        return jsonify({
+                'status': 'fail',
+                'contents': '사용자 식별에 실패했습니다.\n다시 시도해 주세요 ㅠ'
+            })
+    
+    # 업로드 된 음성 파일 가져오기
+    target_dir = os.path.join(UPLOAD_FILE_DIR, user_id)
+    audio_files = os.listdir(target_dir)
+    if len(audio_files) == 0:
+        return jsonify({
+                'status': 'fail',
+                'contents': '서버에 처리할 파일이 없네요ㅠㅠ.\n다시 시도해 주세요 ㅠ'
+            })
+        
     # ASR 인공지능 수행
-    return '결과 텍스트'
+    result_dic = {}
+    result_dic['length'] = len(audio_files)
+    for idx, audio in enumerate(audio_files):
+        # ASR Processing
+        transcript =  'OpenAI whisper에서 꼰대 교수님 최고~~~'
+        result_dic[f'{idx}'] = transcript
+    
+    print(f'result_dic: {result_dic}')
+    
+    return jsonify(result_dic)
