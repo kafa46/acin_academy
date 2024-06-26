@@ -12,6 +12,8 @@
 - [Chapter 2. 서버 모니터링(백엔드 처리 상태)](#monitoring)
 - [Chapter 3. OpenAI Whisper - Local Live ASR](#local_live_asr)
 - [Chapter 4. OpenAI Whisper - Client-server-based File ASR Service](#cs-file-asr)
+- [Chapter 5. OpenAI Whisper - Client-server-based File ASR Service with Monitoring](#'cs-file-asr-progressbar')
+
 <hr>
 
 ### Chapter 1. 딥러닝 배포 서버 구축 <a id='server'></a>
@@ -48,7 +50,6 @@
 |ASR|05. 전이학습 모델 로딩을 위한 models/whisper.py 코딩|[click](https://youtu.be/KXcZLEuxMA4)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
 |ASR|06. VAD 및 Whisper 모델 연동, 미니 프로젝트 #2 마무리 인사|[click](https://youtu.be/cWp4vaPGeww)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/03_whisper_local_live_asr)|
 
-
 [맨위로 이동](#top)
 <hr>
 
@@ -65,6 +66,18 @@
 |ASR-CS|08. 음성 파일을 서버로 전송하기 위한 프런트(JavaScript) 및 서버(upload function) 구현|[click](https://youtu.be/Zz5U4xltx_c)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|09. 클라이언트는 음성 파일을 서버로 전송, 서버는 전송 받은 파일을 저장하는 기능 구현|[click](https://youtu.be/uXG0ht9OdDw)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
 |ASR-CS|10. 서버는 음성 파일을 처리하여 클라이언트로 보내고, 클라이언트는 데이터를 받아 페이지를 업데이트 하는 기능 구현|[click](https://youtu.be/VFiIujieAIc)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|11. (코딩 마무리) 서버는 AI 엔진으로 텍스트 변환, 클라이언트는 최종 텍스트를 시현하는 기능 구현|[click](https://youtu.be/stBpJ4OrPcE)|없음|[codes](https://github.com/kafa46/acin_academy/tree/master/201_deployment/04_file_asr_no_socket)|
+|ASR-CS|12. Adjourning! 미니 프로젝트 마무리 인사|[click](https://youtu.be/df_dGc5SqPo)|[link](https://github.com/kafa46/acin_academy/blob/master/201_deployment/04_file_asr_no_socket/references/12_adjourning.pdf)|없음|
+
+[맨위로 이동](#top)
+<hr>
+
+### Chapter 5. OpenAI Whisper - Client-server-based File ASR Service with Monitoring<a id='cs-file-asr-progressbar'></a>
+|분야|주제|Youtube|Slides|Codes|
+|---|---|---|---|---|
+|ASR-Monitor|준비중|준비중|준비중|준비중|
+
+
 
 ### Chapter XX(TBD). REST API
 - 준비 중 (오픈되면 Update 예정 )
