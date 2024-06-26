@@ -25,7 +25,7 @@ upload/*.mp3
 
 # Deeplearning model files
 201_deployment/04_file_asr_no_socket/ai_asr/models/
-201_deployment/04_file_asr_no_socket/server/static/files/upload
+201_deployment/04_file_asr_no_socket/server/static/files/upload/*
 
 
 # 강의가 완성되면 올릴 파일들
