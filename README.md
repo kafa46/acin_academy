@@ -9,8 +9,8 @@ ACIN (AI & Computer Information Network, '에이신'으로 읽어주세요^^)
     - YouTube video will be embeded here
     - 개인 홈페이지: [click me](https://prof.acin.kr)
     - YouTube Channel: [Jump to Youtube](https://www.youtube.com/@kafa46)
-    - Email (primary): <a href="mailto:kafa46@cju.ac.kr">kafa46@cju.ac.kr</a>
-    - Email (alternative): <a href="mailto:kafa46@gmail.com">kafa46@gmail.com</a>
+    - Email (primary): <a href="mailto:kafa46@gmail.com">kafa46@gmail.com</a>
+    - Email (alternative): <a href="mailto:kafa46@hongik.ac.kr">hongik.ac.kr</a>
 
 <hr>
 
