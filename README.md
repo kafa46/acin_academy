@@ -7,6 +7,7 @@ ACIN (AI & Computer Information Network, '에이신'으로 읽어주세요^^)
 ## ACIN Academy 교장 선생님 인사말
 - 교장: 꼰대 교수님
     - YouTube video will be embeded here
+    - DeepShark Lab: [딥샤크 연구실](https://www.deepshark.org/)
     - Personal Homepage: [click me](https://prof.acin.kr)
     - YouTube Channel: [Jump to Youtube](https://www.youtube.com/@kafa46)
     - Email (primary): <a href="mailto:kafa46@gmail.com">kafa46@gmail.com</a>
