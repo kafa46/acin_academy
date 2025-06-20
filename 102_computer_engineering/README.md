@@ -19,7 +19,7 @@
 |---|---|---|---|---|
 |컴퓨터의 부정확성|01. 오리엔테이션|[click](https://youtu.be/k1Nkyy-FNOY)|[link](https://github.com/kafa46/acin_academy/blob/master/102_computer_engineering/01_why_computers_inaccurate/01_orientation.pdf)|해당없음(N/A)|
 |컴퓨터의 부정확성|02. Converting Floating Point (실수 변환)|[click](https://youtu.be/tQlvud3qwkw)|[link](https://github.com/kafa46/acin_academy/blob/master/102_computer_engineering/01_why_computers_inaccurate/02_converting_floating_point.pdf)|해당없음(N/A)|
-|컴퓨터의 부정확성|03. Fixed Point Representation (고정 소수점 방식)|준비중|준비중|해당없음(N/A)|
+|컴퓨터의 부정확성|03. Fixed Point Representation (고정 소수점 방식)|[click](https://youtu.be/raK5Gzb7skw)|[link](https://github.com/kafa46/acin_academy/blob/master/102_computer_engineering/01_why_computers_inaccurate/03_fixed_point_representation.pdf)|해당없음(N/A)|
 |컴퓨터의 부정확성|04. Floating Point Representation (부동 소수점 방식)|준비중|준비중|해당없음(N/A)|
 |컴퓨터의 부정확성|05. [보너스 강의] Handling Negative Numbers (음수 처리)|준비중|준비중|해당없음(N/A)|
 
