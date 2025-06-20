@@ -25,7 +25,7 @@ Course Naming Index
 |Course ID|Course Name|Link|
 |---|---|---|
 |ACIN-101|Deeplearning Mathematics (딥러닝 수학)|[click](https://github.com/kafa46/deeplearning_math)|
-|ACIN-102|Computer Engineering (컴퓨터 공학)|[준비중]()|
+|ACIN-102|Computer Engineering (컴퓨터 공학)|[click](https://github.com/kafa46/acin_academy/tree/master/102_computer_engineering)|
 |ACIN-201|Service Deployment (서비스 배포)|[click](https://github.com/kafa46/acin_academy/tree/master/201_deployment)|
 |ACIN-202|Fine-tuning using Transfer Learning (전이학습을 이용한 파인 튜닝)|[click](https://github.com/kafa46/acin_academy/tree/master/202_fine_tunning)|
 |ACIN-203|Data Processing (데이터 처리)|[준비중]()|
