@@ -6,7 +6,7 @@
 - ACIN Academy 전체과정 보기: 바로가기 [(click me)](https://github.com/kafa46/acin_academy)
 - 꼰대 교수님 유튜브: 바로가기 [(click me)](https://www.youtube.com/@kafa46)
 - 꼰대 교수님 개인 홈페이지: 바로가기 [(click me)](https://prof.acin.kr/)
-- 꼰대 교수님 연구실 홈페이지: [Deep Shark Lab](https://deepshark.org/)
+- 꼰대 교수님 연구실 홈페이지: [Deep Shark Lab](https://www.deepshark.org/)
 
 ## ACIN-102. Computer Engineering (컴퓨터 공학) 구성
 - [Chapter 1. 왜 컴퓨터는 부정확할까 (실수의 표현)](#floating_point)
