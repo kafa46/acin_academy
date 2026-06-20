@@ -30,7 +30,7 @@
 ### Chapter 2. AI: 이론부터 실전까지 <a id='vibe_coding'></a>
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| 바이브 코딩 | 바이브 코딩 열풍, 개발자는 정말 필요 없어질까? (AI 코딩의 불편한 진실) |[click](https://youtu.be/1oEHfKpV0Z4)|[link](https://github.com/kafa46/acin_academy/blob/master/102_computer_engineering/02_ai_from_theory_to_practice/01_vibe_coding_hype_vs_reality_and_future.pdf)
+| 바이브 코딩 | 바이브 코딩 열풍, 개발자는 정말 필요 없어질까? (AI 코딩의 불편한 진실) |[click](https://youtu.be/1oEHfKpV0Z4)|[link](https://github.com/kafa46/acin_academy/blob/master/102_computer_engineering/02_ai_from_theory_to_practice/01_vibe_coding_hype_vs_reality_and_future.pdf)|해당없음(N/A)|
 
 
 [맨위로 이동](#top)
