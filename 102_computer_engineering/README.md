@@ -10,6 +10,7 @@
 
 ## ACIN-102. Computer Engineering (컴퓨터 공학) 구성
 - [Chapter 1. 왜 컴퓨터는 부정확할까 (실수의 표현)](#floating_point)
+- [Chapter 2. AI: 이론부터 실전까지](#vibe_coding)
 - [Chapter X. Future Topics](#future_topics)
 
 <hr>
@@ -26,6 +27,14 @@
 [맨위로 이동](#top)
 <hr>
 
+### Chapter 2. AI: 이론부터 실전까지 <a id='vibe_coding'></a>
+|분야|주제|Youtube|Slides|Codes|
+|---|---|---|---|---|
+| 바이브 코딩 | 바이브 코딩 열풍, 개발자는 정말 필요 없어질까? (AI 코딩의 불편한 진실) |[click](https://youtu.be/1oEHfKpV0Z4)|[link](https://github.com/kafa46/acin_academy/blob/master/102_computer_engineering/02_ai_from_theory_to_practice/01_vibe_coding_hype_vs_reality_and_future.pdf)
+
+
+[맨위로 이동](#top)
+<hr>
 
 ### Chapter XX(TBD). Future Topics <a id='future_topics'></a>
 - 준비 중 (오픈되면 Update 예정 )
