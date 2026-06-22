@@ -50,11 +50,11 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Foundation | Perceptron | [click]() | [link]() | N/A |
-| Foundation | Multi-Layer Perceptron (MLP) | [click]() | [link]() | N/A |
-| Foundation | Activation Functions | [click]() | [link]() | N/A |
-| Foundation | Loss Functions | [click]() | [link]() | N/A |
-| Foundation | Backpropagation | [click]() | [link]() | N/A |
+| Foundation | Perceptron | [준비중]() | [준비중]() | N/A |
+| Foundation | Multi-Layer Perceptron (MLP) | [준비중]() | [준비중]() | N/A |
+| Foundation | Activation Functions | [준비중]() | [준비중]() | N/A |
+| Foundation | Loss Functions | [준비중]() | [준비중]() | N/A |
+| Foundation | Backpropagation | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -64,14 +64,14 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| CNN | Basic Structure | [click]() | [link]() | N/A |
-| CNN | LeNet | [click]() | [link]() | N/A |
-| CNN | AlexNet | [click]() | [link]() | N/A |
-| CNN | VGGNet | [click]() | [link]() | N/A |
-| CNN | GoogLeNet (Inception) | [click]() | [link]() | N/A |
-| CNN | ResNet | [click]() | [link]() | N/A |
-| CNN | DenseNet | [click]() | [link]() | N/A |
-| CNN | EfficientNet | [click]() | [link]() | N/A |
+| CNN | Basic Structure | [준비중]() | [준비중]() | N/A |
+| CNN | LeNet | [준비중]() | [준비중]() | N/A |
+| CNN | AlexNet | [준비중]() | [준비중]() | N/A |
+| CNN | VGGNet | [준비중]() | [준비중]() | N/A |
+| CNN | GoogLeNet (Inception) | [준비중]() | [준비중]() | N/A |
+| CNN | ResNet | [준비중]() | [준비중]() | N/A |
+| CNN | DenseNet | [준비중]() | [준비중]() | N/A |
+| CNN | EfficientNet | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -81,10 +81,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Sequence | Vanilla RNN | [click]() | [link]() | N/A |
-| Sequence | Backpropagation Through Time (BPTT) | [click]() | [link]() | N/A |
-| Sequence | Vanishing Gradient Problem | [click]() | [link]() | N/A |
-| Sequence | Language Modeling | [click]() | [link]() | N/A |
+| Sequence | Vanilla RNN | [준비중]() | [준비중]() | N/A |
+| Sequence | Backpropagation Through Time (BPTT) | [준비중]() | [준비중]() | N/A |
+| Sequence | Vanishing Gradient Problem | [준비중]() | [준비중]() | N/A |
+| Sequence | Language Modeling | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -94,10 +94,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Sequence | LSTM | [click]() | [link]() | N/A |
-| Sequence | GRU | [click]() | [link]() | N/A |
-| Sequence | Encoder-Decoder | [click]() | [link]() | N/A |
-| Sequence | Seq2Seq | [click]() | [link]() | N/A |
+| Sequence | LSTM | [준비중]() | [준비중]() | N/A |
+| Sequence | GRU | [준비중]() | [준비중]() | N/A |
+| Sequence | Encoder-Decoder | [준비중]() | [준비중]() | N/A |
+| Sequence | Seq2Seq | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -107,10 +107,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Attention | Motivation | [click]() | [link]() | N/A |
-| Attention | Bahdanau Attention | [click]() | [link]() | N/A |
-| Attention | Self-Attention | [click]() | [link]() | N/A |
-| Attention | Multi-Head Attention | [click]() | [link]() | N/A |
+| Attention | Motivation | [준비중]() | [준비중]() | N/A |
+| Attention | Bahdanau Attention | [준비중]() | [준비중]() | N/A |
+| Attention | Self-Attention | [준비중]() | [준비중]() | N/A |
+| Attention | Multi-Head Attention | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -120,11 +120,11 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Transformer | Attention Is All You Need | [click]() | [link]() | N/A |
-| Transformer | Encoder | [click]() | [link]() | N/A |
-| Transformer | Decoder | [click]() | [link]() | N/A |
-| Transformer | Positional Encoding | [click]() | [link]() | N/A |
-| Transformer | Multi-Head Attention | [click]() | [link]() | N/A |
+| Transformer | Attention Is All You Need | [준비중]() | [준비중]() | N/A |
+| Transformer | Encoder | [준비중]() | [준비중]() | N/A |
+| Transformer | Decoder | [준비중]() | [준비중]() | N/A |
+| Transformer | Positional Encoding | [준비중]() | [준비중]() | N/A |
+| Transformer | Multi-Head Attention | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -134,12 +134,12 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| LLM | BERT | [click]() | [link]() | N/A |
-| LLM | GPT Series | [click]() | [link]() | N/A |
-| LLM | T5 | [click]() | [link]() | N/A |
-| LLM | Llama | [click]() | [link]() | N/A |
-| LLM | Instruction Tuning | [click]() | [link]() | N/A |
-| LLM | RLHF | [click]() | [link]() | N/A |
+| LLM | BERT | [준비중]() | [준비중]() | N/A |
+| LLM | GPT Series | [준비중]() | [준비중]() | N/A |
+| LLM | T5 | [준비중]() | [준비중]() | N/A |
+| LLM | Llama | [준비중]() | [준비중]() | N/A |
+| LLM | Instruction Tuning | [준비중]() | [준비중]() | N/A |
+| LLM | RLHF | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -149,10 +149,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Graph | GCN | [click]() | [link]() | N/A |
-| Graph | GraphSAGE | [click]() | [link]() | N/A |
-| Graph | GAT | [click]() | [link]() | N/A |
-| Graph | GIN | [click]() | [link]() | N/A |
+| Graph | GCN | [준비중]() | [준비중]() | N/A |
+| Graph | GraphSAGE | [준비중]() | [준비중]() | N/A |
+| Graph | GAT | [준비중]() | [준비중]() | N/A |
+| Graph | GIN | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -162,10 +162,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Generative | Autoencoder | [click]() | [link]() | N/A |
-| Generative | Sparse Autoencoder | [click]() | [link]() | N/A |
-| Generative | Denoising Autoencoder | [click]() | [link]() | N/A |
-| Generative | Variational Autoencoder (VAE) | [click]() | [link]() | N/A |
+| Generative | Autoencoder | [준비중]() | [준비중]() | N/A |
+| Generative | Sparse Autoencoder | [준비중]() | [준비중]() | N/A |
+| Generative | Denoising Autoencoder | [준비중]() | [준비중]() | N/A |
+| Generative | Variational Autoencoder (VAE) | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -175,10 +175,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| GAN | GAN Basics | [click]() | [link]() | N/A |
-| GAN | DCGAN | [click]() | [link]() | N/A |
-| GAN | CycleGAN | [click]() | [link]() | N/A |
-| GAN | StyleGAN | [click]() | [link]() | N/A |
+| GAN | GAN Basics | [준비중]() | [준비중]() | N/A |
+| GAN | DCGAN | [준비중]() | [준비중]() | N/A |
+| GAN | CycleGAN | [준비중]() | [준비중]() | N/A |
+| GAN | StyleGAN | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -188,10 +188,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Diffusion | DDPM | [click]() | [link]() | N/A |
-| Diffusion | Stable Diffusion | [click]() | [link]() | N/A |
-| Diffusion | ControlNet | [click]() | [link]() | N/A |
-| Diffusion | FLUX | [click]() | [link]() | N/A |
+| Diffusion | DDPM | [준비중]() | [준비중]() | N/A |
+| Diffusion | Stable Diffusion | [준비중]() | [준비중]() | N/A |
+| Diffusion | ControlNet | [준비중]() | [준비중]() | N/A |
+| Diffusion | FLUX | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -201,9 +201,9 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Vision | ViT | [click]() | [link]() | N/A |
-| Vision | DeiT | [click]() | [link]() | N/A |
-| Vision | Swin Transformer | [click]() | [link]() | N/A |
+| Vision | ViT | [준비중]() | [준비중]() | N/A |
+| Vision | DeiT | [준비중]() | [준비중]() | N/A |
+| Vision | Swin Transformer | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
@@ -213,10 +213,10 @@
 
 |분야|주제|Youtube|Slides|Codes|
 |---|---|---|---|---|
-| Multimodal | CLIP | [click]() | [link]() | N/A |
-| Multimodal | BLIP | [click]() | [link]() | N/A |
-| Multimodal | GPT-4o | [click]() | [link]() | N/A |
-| Multimodal | Gemini | [click]() | [link]() | N/A |
+| Multimodal | CLIP | [준비중]() | [준비중]() | N/A |
+| Multimodal | BLIP | [준비중]() | [준비중]() | N/A |
+| Multimodal | GPT-4o | [준비중]() | [준비중]() | N/A |
+| Multimodal | Gemini | [준비중]() | [준비중]() | N/A |
 
 [맨위로 이동](#top)
 
