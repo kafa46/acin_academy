@@ -32,6 +32,6 @@ Course Naming Index
 |ACIN-204|Pytorch Baisics (파이토치 기초)|[준비중]()|
 |ACIN-301|Deeplearning Core Technologies (딥러닝 핵심 기술)|[준비중]()|
 |ACIN-302|Implementation Technologies (구현 기술)|[준비중]()|
-|ACIN-401|Deeplearning Architectures (딥러닝 아키텍처)|[준비중]()|
+|ACIN-401|AI Architectures (인공지능 아키텍처)|[click](https://github.com/kafa46/acin_academy/tree/master/401_ai_architectures)|
 |ACIN-402|Performance Evaluation (성능 평가)|[준비중]()|
 |ACIN-403|Related Theories (관련 이론)|[준비중]()|
